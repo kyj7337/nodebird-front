@@ -1,0 +1,40 @@
+.user-info-container {
+  position: relative;
+  .row {
+    .hello {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    &.flex {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .myinfo-label {
+      font-weight: bold;
+    }
+    .count {
+      text-align: center;
+      font-weight: bold;
+      color: yellow;
+    }
+  }
+  .logout-container {
+    display: flex;
+    justify-content: center;
+    .logout {
+      display: inline-block;
+      border-radius: 4px;
+      // width: 75px;
+      background-color: white;
+      padding: 5px 10px;
+      margin: 10px auto 0 auto;
+      opacity: 0.9;
+      transition: all 0.1s ease;
+      &:hover {
+        cursor: pointer;
+        opacity: 1;
+      }
+    }
+  }
+}
